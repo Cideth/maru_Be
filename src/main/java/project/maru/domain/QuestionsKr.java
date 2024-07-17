@@ -21,7 +21,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
 @Table(name = "questions_kr")
@@ -45,7 +44,6 @@ public class QuestionsKr {
   @Column(updatable = false)
   @CreationTimestamp
   private LocalDateTime createdAt;
-  @UpdateTimestamp
   private LocalDateTime updatedAt;
   private LocalDateTime deletedAt;
 

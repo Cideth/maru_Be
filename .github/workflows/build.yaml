@@ -3,7 +3,9 @@ name: Java CI with Gradle
 on:
   pull_request:
     branches: [ "main" ]
-
+  push:
+    branches: [ "tmp/ci" ]
+    
 env:
   ROLE_ASSUME: ${{ secrets.AWS_ROLE_TO_ASSUME }}
   REGION: ${{ vars.AWS_REGION }}

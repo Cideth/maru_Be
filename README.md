@@ -24,7 +24,7 @@ K-pop과 K-drama의 영상에서 단어를 추출하여, 개인의 관심사와 
 # Back-End Migration
 - [ ] 토큰 검증 별도로 받기 (security 적용)
 - [ ] Swagger 재정의
-- [ ] DB 최적화
+- DB 최적화
   - [ ] 데이터 삽입
   - [ ] Slow Query 분석
   - [ ] 인덱스 설정
